@@ -1,13 +1,13 @@
 import './PlayMenu.css'
 import BackLogo from '../../../assets/Images/Icons/back.svg'
 
-const PlayMenu = ({ restart }) => {
+const PlayMenu = ({ back }) => {
   return (
     <div className='flex-align-center main-container play-menu'>
       <button
-        className='img-btn play-menu__back'
+        className='img-btn img-btn--back'
         type='button'
-        onClick={ restart }
+        onClick={ back }
       >
         <img className='img-btn__img' src={ BackLogo } alt='Back' />
       </button>

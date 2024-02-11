@@ -28,6 +28,11 @@
   position: absolute;
 }
 
+.img-btn--back {
+  left: 50px;
+  top: 50px;
+}
+
 .img-btn__img {
   height: 50px;
   width: 50px;

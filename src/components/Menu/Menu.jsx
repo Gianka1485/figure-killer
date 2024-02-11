@@ -1,7 +1,7 @@
 import './Menu.css'
 import { useState } from 'react'
 import ConfigLogo from '../../assets/Images/Icons/settings.svg'
-import ConfigScreen from '../Config/Config'
+import Config from '../Config/Config'
 import PlayMenu from './PlayMenu/PlayMenu'
 
 const Menu = ({ lang }) => {
@@ -18,7 +18,7 @@ const Menu = ({ lang }) => {
         { lang.play }
       </button>
 
-      { playScreen && <PlayMenu restart={ () => setPlayScreen(false) } /> }
+      { playScreen && <PlayMenu back={ () => setPlayScreen(false) } /> }
 
       <button
         className='img-btn config-btn'
@@ -28,7 +28,7 @@ const Menu = ({ lang }) => {
         <img className='img-btn__img' src={ ConfigLogo } alt='Config' />
       </button>
 
-      { configScreen && <ConfigScreen /> }
+      { configScreen && <Config back={ () => setConfigScreen(false) } /> }
     </div>
   )
 }
