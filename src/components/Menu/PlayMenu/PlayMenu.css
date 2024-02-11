@@ -1,0 +1,23 @@
+.play-menu {
+  align-items: center;
+  background-color: aqua;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.play-menu-container {
+  align-items: center;
+  background-color: burlywood;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  width: 100%;
+}
+
+.play-menu__card {
+  background-color: white;
+  height: 400px;
+  width: 250px;
+}

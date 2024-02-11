@@ -1,0 +1,21 @@
+/*Las propiedades de los estilos se encuentran organizados de forma alfabética*/
+
+* {
+  border: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
