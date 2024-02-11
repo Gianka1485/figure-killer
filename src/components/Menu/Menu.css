@@ -1,19 +1,4 @@
-#Menu {
-  display: grid;
-  height: 100%;
-  place-content: center;
-  position: absolute;
-  width: 100%;
-}
-
 .config-btn {
-  background-color: transparent;
-  position: absolute;
   right: 50px;
   top: 50px;
-}
-
-.config-btn img {
-  height: 50px;
-  width: 50px;
 }

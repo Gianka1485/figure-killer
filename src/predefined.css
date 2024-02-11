@@ -1,0 +1,34 @@
+/*Estas clases css se encuentran organizadas de forma alfabética*/
+
+
+.flex-align-center {
+  align-items: center;
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-center {
+  display: grid;
+  place-content: center;
+}
+
+.main-container {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.img-btn {
+  background-color: transparent;
+  position: absolute;
+}
+
+.img-btn__img {
+  height: 50px;
+  width: 50px;
+}

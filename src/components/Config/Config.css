@@ -1,0 +1,9 @@
+.config {
+  background-color: aquamarine;
+}
+
+.config-container {
+  background-color: white;
+  height: 500px;
+  width: 300px;
+}
