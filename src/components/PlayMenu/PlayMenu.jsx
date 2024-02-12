@@ -1,7 +1,7 @@
 import './PlayMenu.css'
-import BackLogo from '../../../assets/Images/Icons/back.svg'
+import BackLogo from '../../assets/Images/Icons/back.svg'
 
-const PlayMenu = ({ back }) => {
+const PlayMenu = ({ back , lang }) => {
   return (
     <div className='flex-align-center main-container play-menu'>
       <button

@@ -1,5 +1,12 @@
 {
   "menu": {
     "play":"Jugar"
+  },
+  "options": {
+    "lang":"Lenguajes",
+    "credits":"Creditos"
+  },
+  "playMenu":{
+    
   }
 }

@@ -1,5 +1,12 @@
 {
   "menu": {
     "play":"Play"
+  },
+  "options": {
+    "lang":"Languages",
+    "credits":"Credits"
+  },
+  "playMenu":{
+    
   }
 }
