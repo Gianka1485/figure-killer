@@ -42,13 +42,13 @@ export const App = () => {
   }, [])
 
   //Pantalla de carga
-  if (lang === null) return (
+  return lang === null ? (
     <>
       <h1 style={{ fontSize:'3em' }}>Loading...</h1>
     </>
   )
-
-  return (
+  :
+  (
     <>
       {
         screen.menu &&
